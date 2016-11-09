@@ -27,7 +27,7 @@ env:
 script:
  - git submodule update --init --recursive || true
   # Build packages using PackPack
- - git clone https://github.com/benoit-pierre/packpack.git packpack
+ - git clone --depth 1 https://github.com/benoit-pierre/packpack.git packpack
  - packpack/packpack
 
 deploy:
