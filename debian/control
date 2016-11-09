@@ -1,7 +1,7 @@
 Source: minc-toolkit-v2
 Priority: optional
 Maintainer: Vladimir S. FONOV <vladimir.fonov@gmail.com>
-Build-Depends: debhelper (>= 4.1.16), bison, flex, libxi-dev, libxmu-dev, libxmu-headers, cmake (>= 3.0), git, libgl1-mesa-dev, libjpeg-turbo8-dev, libglu1-mesa-dev
+Build-Depends: debhelper (>= 4.1.16), bison, flex, libxi-dev, libxmu-dev, libxmu-headers, cmake (>= 3.0), git, libgl1-mesa-dev, libjpeg-dev, libglu1-mesa-dev
 
 Package: minc-toolkit-v2
 Architecture: any
