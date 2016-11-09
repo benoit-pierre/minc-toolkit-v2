@@ -26,6 +26,7 @@ BuildRequires:  gcc-c++
 BuildRequires:  git
 BuildRequires:  mesa-libGL-devel
 BuildRequires:  mesa-libGLU-devel
+BuildRequires: libjpeg-turbo-devel
 
 Prefix:         /opt/minc/%{version}
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
