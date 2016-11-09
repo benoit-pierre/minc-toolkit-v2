@@ -5,7 +5,9 @@ sudo: required
 services:
   - docker
 
-cache: ccache
+cache:
+  directories:
+    - $HOME/.cache/packpack
 language: C
 
 env:
@@ -24,10 +26,8 @@ env:
 
 script:
  - git submodule update --init --recursive || true
-
-before_deploy:
   # Build packages using PackPack
- - git clone https://github.com/packpack/packpack.git packpack
+ - git clone https://github.com/benoit-pierre/packpack.git packpack
  - packpack/packpack
 
 deploy:
